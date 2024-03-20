@@ -38,6 +38,16 @@ For the MPI version:
 ```
 mpirun -np <num_processes> ./program_mpi
 ```
+For Openmp version compile with the following command:
+```
+gcc openmp_program_name.c -o openmp_program_name -fopenmp
+```
+To run the compiled code 
+
+```
+./openmp_program_name
+```
+
 Customization
 
 You can customize the simulation parameters and initial conditions by modifying the macros defined at the beginning of each source code file.
